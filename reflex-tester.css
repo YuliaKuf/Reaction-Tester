@@ -1,0 +1,14 @@
+.changingShape{
+
+background-color: red;
+width: 50px;
+height: 50px;
+position: relative;
+display: none;
+transition: all 0.3s;
+
+}
+
+.changingShape:hover {
+    cursor: pointer;
+}
