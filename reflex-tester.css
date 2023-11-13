@@ -1,4 +1,4 @@
-.container{
+.instructions{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,11 +13,13 @@ p{
 
     color: #2b2d42;
 }
-body{
+.container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     align-items: center;
+
+}
+body{
     background-color: #f5ebe0;
 }
 

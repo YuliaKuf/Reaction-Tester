@@ -60,7 +60,7 @@ document.getElementById("changingShape").onclick = function() {
     //Changing the location - variables
   
     let randomTop =  Math.floor(Math.random() * ((h-400) - parseInt(randomHeight))) + "px";
-    let randomLeft = Math.floor(Math.random() * ((w-500)- parseInt(randomWidth))) + "px";
+    let randomLeft = Math.floor(Math.random() * ((w)- parseInt(randomWidth))) + "px";
 
     //Actually Changing the location
     this.style.top = randomTop;
